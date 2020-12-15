@@ -6,8 +6,15 @@ public class Mensaje {
 	
 	private String codigo;
 	private String texto;
+	private String destinatario;
 	
 	
+	public String getDestinatario() {
+		return destinatario;
+	}
+	public void setDestinatario(String destinatario) {
+		this.destinatario = destinatario;
+	}
 	public String getCodigo() {
 		return codigo;
 	}
